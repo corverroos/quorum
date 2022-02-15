@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
 )
 
 // callmsg is the message type used for call transactions in the private state test

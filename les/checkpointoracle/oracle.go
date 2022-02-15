@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/accounts/abi/bind"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/contracts/checkpointoracle"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

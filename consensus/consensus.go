@@ -20,13 +20,13 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

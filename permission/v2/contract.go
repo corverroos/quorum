@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/permission/core"
-	ptype "github.com/ethereum/go-ethereum/permission/core/types"
-	binding "github.com/ethereum/go-ethereum/permission/v2/bind"
+	"github.com/corverroos/quorum/accounts/abi/bind"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/permission/core"
+	ptype "github.com/corverroos/quorum/permission/core/types"
+	binding "github.com/corverroos/quorum/permission/v2/bind"
 )
 
 // definitions for v2 permissions model which is aligned with eea specs

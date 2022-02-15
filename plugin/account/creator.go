@@ -3,7 +3,7 @@ package account
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/corverroos/quorum/accounts"
 )
 
 type creator struct {

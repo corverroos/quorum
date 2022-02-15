@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/params"
 )
 
 type account struct{}

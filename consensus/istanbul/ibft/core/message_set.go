@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	ibfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/ibft/types"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	ibfttypes "github.com/corverroos/quorum/consensus/istanbul/ibft/types"
 )
 
 // Construct a new message set to accumulate messages for given sequence/view number.

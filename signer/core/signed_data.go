@@ -30,14 +30,14 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/hexutil"
+	"github.com/corverroos/quorum/common/math"
+	"github.com/corverroos/quorum/consensus/clique"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/rlp"
 )
 
 type SigFormat struct {

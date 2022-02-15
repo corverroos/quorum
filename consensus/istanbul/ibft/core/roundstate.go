@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	"github.com/corverroos/quorum/rlp"
 )
 
 // newRoundState creates a new roundState instance with the given view and validatorSet

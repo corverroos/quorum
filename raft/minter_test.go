@@ -9,14 +9,14 @@ import (
 
 	"github.com/coreos/etcd/raft/raftpb"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/hexutil"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/rlp"
 )
 
 const TEST_URL = "enode://3d9ca5956b38557aba991e31cf510d4df641dce9cc26bfeb7de082f0c07abb6ede3a58410c8f249dabeecee4ad3979929ac4c7c496ad20b8cfdd061b7401b4f5@127.0.0.1:21003?discport=0&raftport=50404"

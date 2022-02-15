@@ -28,8 +28,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/log"
 )
 
 var (

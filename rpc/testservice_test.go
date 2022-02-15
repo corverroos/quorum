@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/corverroos/quorum/core/types"
 )
 
 func newTestServer() *Server {

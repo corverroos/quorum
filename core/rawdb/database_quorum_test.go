@@ -20,8 +20,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/ethdb/memorydb"
 	"github.com/stretchr/testify/assert"
 )
 

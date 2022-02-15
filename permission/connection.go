@@ -3,10 +3,10 @@ package permission
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/permission/core"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/permission/core"
 )
 
 func isNodePermissionedV1(enodeId string, nodename string, currentNode string, direction string) bool {

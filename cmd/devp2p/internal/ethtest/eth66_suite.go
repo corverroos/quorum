@@ -19,11 +19,11 @@ package ethtest
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/eth/protocols/eth"
+	"github.com/corverroos/quorum/internal/utesting"
+	"github.com/corverroos/quorum/p2p"
 )
 
 // TestStatus_66 attempts to connect to the given node and exchange

@@ -28,11 +28,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus"
+	"github.com/corverroos/quorum/eth/protocols/eth"
+	"github.com/corverroos/quorum/event"
+	"github.com/corverroos/quorum/log"
 )
 
 const (

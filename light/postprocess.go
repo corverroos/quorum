@@ -26,16 +26,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/bitutil"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/rlp"
+	"github.com/corverroos/quorum/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

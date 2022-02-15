@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	ibfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/ibft/types"
-	"github.com/ethereum/go-ethereum/consensus/istanbul/validator"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	ibfttypes "github.com/corverroos/quorum/consensus/istanbul/ibft/types"
+	"github.com/corverroos/quorum/consensus/istanbul/validator"
+	"github.com/corverroos/quorum/crypto"
 )
 
 func TestHandleCommit(t *testing.T) {

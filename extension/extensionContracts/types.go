@@ -1,7 +1,7 @@
 package extensionContracts
 
 import (
-	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/corverroos/quorum/core/state"
 )
 
 type AccountWithMetadata struct {

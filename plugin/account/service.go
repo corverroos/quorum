@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/corverroos/quorum/accounts"
 )
 
 type Service interface {

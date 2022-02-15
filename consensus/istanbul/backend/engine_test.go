@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul/testutils"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	"github.com/corverroos/quorum/consensus/istanbul/testutils"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/crypto"
 )
 
 func newBlockchainFromConfig(genesis *core.Genesis, nodeKeys []*ecdsa.PrivateKey, cfg *istanbul.Config) (*core.BlockChain, *Backend) {

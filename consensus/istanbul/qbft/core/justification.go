@@ -4,10 +4,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	qbfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/qbft/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	qbfttypes "github.com/corverroos/quorum/consensus/istanbul/qbft/types"
+	"github.com/corverroos/quorum/log"
 )
 
 // Returns true if the `proposal` is justified by the set `roundChangeMessages` of ROUND-CHANGE messages

@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"testing"
 
-	http2 "github.com/ethereum/go-ethereum/common/http"
-	"github.com/ethereum/go-ethereum/private/engine/constellation"
-	"github.com/ethereum/go-ethereum/private/engine/tessera"
+	http2 "github.com/corverroos/quorum/common/http"
+	"github.com/corverroos/quorum/private/engine/constellation"
+	"github.com/corverroos/quorum/private/engine/tessera"
 	"github.com/stretchr/testify/assert"
 )
 

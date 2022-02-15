@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/log"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/openpgp"
 )

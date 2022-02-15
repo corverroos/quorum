@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/cmd/devp2p/internal/v4test"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/p2p/discover"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

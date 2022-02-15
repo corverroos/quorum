@@ -4,7 +4,7 @@ package rpc
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/corverroos/quorum/core/types"
 	"github.com/jpmorganchase/quorum-security-plugin-sdk-go/proto"
 )
 

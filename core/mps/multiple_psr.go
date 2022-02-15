@@ -3,11 +3,11 @@ package mps
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethdb"
 )
 
 type StateRootProviderFunc func(isEIP158 bool) (common.Hash, error)

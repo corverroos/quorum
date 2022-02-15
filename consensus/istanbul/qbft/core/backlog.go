@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	qbfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/qbft/types"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	qbfttypes "github.com/corverroos/quorum/consensus/istanbul/qbft/types"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

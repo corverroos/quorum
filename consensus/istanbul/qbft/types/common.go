@@ -3,8 +3,8 @@ package qbfttypes
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
 )
 
 // Data that is common to all QBFT messages. Used for composition.

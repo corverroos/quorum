@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	pcore "github.com/ethereum/go-ethereum/permission/core"
-	ptype "github.com/ethereum/go-ethereum/permission/core/types"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/eth"
+	"github.com/corverroos/quorum/ethclient"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/params"
+	pcore "github.com/corverroos/quorum/permission/core"
+	ptype "github.com/corverroos/quorum/permission/core/types"
 )
 
 // This is to make sure all contract instances are ready and initialized

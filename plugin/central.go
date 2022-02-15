@@ -15,7 +15,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/log"
 )
 
 // Central https centralClient communicating with Plugin Central

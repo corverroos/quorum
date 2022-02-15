@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/les/vflux"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/les/utils"
+	"github.com/corverroos/quorum/les/vflux"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/rlp"
 )
 
 type (

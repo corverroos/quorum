@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/hexutil"
+	"github.com/corverroos/quorum/common/math"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/params"
 )
 
 // VMTest checks EVM execution without block or transaction context.

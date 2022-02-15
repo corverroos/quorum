@@ -24,13 +24,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/event"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/p2p/simulations/pipes"
+	"github.com/corverroos/quorum/rpc"
 	"github.com/gorilla/websocket"
 )
 

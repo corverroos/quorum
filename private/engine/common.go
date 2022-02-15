@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/corverroos/quorum/common"
 )
 
 const (

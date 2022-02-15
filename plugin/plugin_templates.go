@@ -3,10 +3,10 @@ package plugin
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/plugin/account"
-	"github.com/ethereum/go-ethereum/plugin/helloworld"
-	"github.com/ethereum/go-ethereum/plugin/security"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/plugin/account"
+	"github.com/corverroos/quorum/plugin/helloworld"
+	"github.com/corverroos/quorum/plugin/security"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

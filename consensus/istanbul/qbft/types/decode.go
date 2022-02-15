@@ -1,8 +1,8 @@
 package qbfttypes
 
 import (
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	"github.com/corverroos/quorum/rlp"
 )
 
 func Decode(code uint64, data []byte) (QBFTMessage, error) {

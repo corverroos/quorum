@@ -3,12 +3,12 @@ package mps
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/log"
 )
 
 // DefaultPrivateStateRepository acts as the single private state in the original

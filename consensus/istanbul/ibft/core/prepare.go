@@ -19,9 +19,9 @@ package core
 import (
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	ibfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/ibft/types"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	ibfttypes "github.com/corverroos/quorum/consensus/istanbul/ibft/types"
 )
 
 func (c *core) sendPrepare() {

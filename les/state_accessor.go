@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/light"
 )
 
 // stateAtBlock retrieves the state database associated with a certain block.

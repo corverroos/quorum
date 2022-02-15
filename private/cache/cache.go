@@ -3,7 +3,7 @@ package cache
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/private/engine"
 	gocache "github.com/patrickmn/go-cache"
 )
 

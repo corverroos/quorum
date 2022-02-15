@@ -21,9 +21,9 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
 )
 
 // Quorum

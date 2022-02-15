@@ -8,10 +8,10 @@ import (
 	context "context"
 	reflect "reflect"
 
-	common "github.com/ethereum/go-ethereum/common"
-	state "github.com/ethereum/go-ethereum/core/state"
-	types "github.com/ethereum/go-ethereum/core/types"
-	trie "github.com/ethereum/go-ethereum/trie"
+	common "github.com/corverroos/quorum/common"
+	state "github.com/corverroos/quorum/core/state"
+	types "github.com/corverroos/quorum/core/types"
+	trie "github.com/corverroos/quorum/trie"
 	gomock "github.com/golang/mock/gomock"
 )
 

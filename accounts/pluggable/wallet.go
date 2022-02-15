@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	plugin "github.com/ethereum/go-ethereum/plugin/account"
+	"github.com/corverroos/quorum"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
+	plugin "github.com/corverroos/quorum/plugin/account"
 )
 
 type wallet struct {

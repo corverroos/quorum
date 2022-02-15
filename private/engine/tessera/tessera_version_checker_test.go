@@ -3,7 +3,7 @@ package tessera
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/private/engine"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/corverroos/quorum/common/mclock"
+	"github.com/corverroos/quorum/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

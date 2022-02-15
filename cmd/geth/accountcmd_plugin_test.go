@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/plugin"
+	"github.com/corverroos/quorum/cmd/utils"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/plugin"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/urfave/cli.v1"
 )

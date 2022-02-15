@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/private/engine"
 	testifyassert "github.com/stretchr/testify/assert"
 )
 

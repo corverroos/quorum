@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/eth"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/params"
 	"github.com/stretchr/testify/require"
 )
 

@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/eth/downloader"
+	"github.com/corverroos/quorum/eth/ethconfig"
+	"github.com/corverroos/quorum/ethclient"
+	"github.com/corverroos/quorum/ethstats"
+	"github.com/corverroos/quorum/internal/debug"
+	"github.com/corverroos/quorum/les"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/nat"
+	"github.com/corverroos/quorum/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

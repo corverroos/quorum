@@ -6,11 +6,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/private"
-	"github.com/ethereum/go-ethereum/private/mock_private"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/private"
+	"github.com/corverroos/quorum/private/mock_private"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )

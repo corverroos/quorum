@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/corverroos/quorum/internal/ethapi"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/signer/core"
+	"github.com/corverroos/quorum/signer/rules/deps"
+	"github.com/corverroos/quorum/signer/storage"
 )
 
 var (

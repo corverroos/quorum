@@ -21,16 +21,16 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul/validator"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	"github.com/corverroos/quorum/consensus/istanbul/validator"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/rpc"
 )
 
 const (

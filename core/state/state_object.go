@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/metrics"
+	"github.com/corverroos/quorum/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

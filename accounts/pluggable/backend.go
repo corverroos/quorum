@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	plugin "github.com/ethereum/go-ethereum/plugin/account"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/event"
+	plugin "github.com/corverroos/quorum/plugin/account"
 )
 
 var BackendType = reflect.TypeOf(&Backend{})

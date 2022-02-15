@@ -11,11 +11,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/private/cache"
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/private/cache"
+	"github.com/corverroos/quorum/private/engine"
 	gocache "github.com/patrickmn/go-cache"
 )
 

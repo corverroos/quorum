@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/multitenancy"
-	"github.com/ethereum/go-ethereum/permission/core"
+	"github.com/corverroos/quorum/accounts/abi/bind"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/internal/ethapi"
+	"github.com/corverroos/quorum/multitenancy"
+	"github.com/corverroos/quorum/permission/core"
 )
 
 var (

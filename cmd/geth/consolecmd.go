@@ -28,12 +28,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/plugin/security"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/cmd/utils"
+	"github.com/corverroos/quorum/console"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/plugin/security"
+	"github.com/corverroos/quorum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

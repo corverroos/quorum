@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/extension/extensionContracts"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/extension/extensionContracts"
+	"github.com/corverroos/quorum/rpc"
 	"github.com/jpmorganchase/quorum-security-plugin-sdk-go/proto"
 )
 

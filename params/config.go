@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/crypto"
 )
 
 // Genesis hashes to enforce below configs on.

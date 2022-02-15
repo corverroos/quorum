@@ -19,13 +19,13 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/params"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

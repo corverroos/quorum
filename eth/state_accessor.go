@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/private"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/private"
+	"github.com/corverroos/quorum/trie"
 )
 
 // stateAtBlock retrieves the state database associated with a certain block.

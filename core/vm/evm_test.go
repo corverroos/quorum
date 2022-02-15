@@ -3,8 +3,8 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/params"
 	"github.com/stretchr/testify/require"
 )
 

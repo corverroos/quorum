@@ -5,9 +5,9 @@
 package vm
 
 import (
-	common "github.com/ethereum/go-ethereum/common"
-	state "github.com/ethereum/go-ethereum/core/state"
-	types "github.com/ethereum/go-ethereum/core/types"
+	common "github.com/corverroos/quorum/common"
+	state "github.com/corverroos/quorum/core/state"
+	types "github.com/corverroos/quorum/core/types"
 	gomock "github.com/golang/mock/gomock"
 	big "math/big"
 	reflect "reflect"

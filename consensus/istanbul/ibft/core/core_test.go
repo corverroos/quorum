@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	ibfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/ibft/types"
-	"github.com/ethereum/go-ethereum/core/types"
-	elog "github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	ibfttypes "github.com/corverroos/quorum/consensus/istanbul/ibft/types"
+	"github.com/corverroos/quorum/core/types"
+	elog "github.com/corverroos/quorum/log"
 )
 
 func makeBlock(number int64) *types.Block {

@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/consensus"
+	"github.com/corverroos/quorum/consensus/ethash"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/core/vm"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

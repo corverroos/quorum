@@ -3,8 +3,8 @@ package initializer
 import (
 	"context"
 
-	iplugin "github.com/ethereum/go-ethereum/internal/plugin"
-	"github.com/ethereum/go-ethereum/plugin/gen/proto_common"
+	iplugin "github.com/corverroos/quorum/internal/plugin"
+	"github.com/corverroos/quorum/plugin/gen/proto_common"
 	"github.com/hashicorp/go-plugin"
 	"google.golang.org/grpc"
 )

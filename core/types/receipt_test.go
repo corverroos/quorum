@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

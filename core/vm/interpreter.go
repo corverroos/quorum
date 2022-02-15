@@ -21,10 +21,10 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/math"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/log"
 )
 
 // Config are the configuration options for the Interpreter

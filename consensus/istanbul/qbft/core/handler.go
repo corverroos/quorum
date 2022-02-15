@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	qbfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/qbft/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	qbfttypes "github.com/corverroos/quorum/consensus/istanbul/qbft/types"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/rlp"
 )
 
 // Start implements core.Engine.Start

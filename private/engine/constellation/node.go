@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/corverroos/quorum/common"
 )
 
 type Client struct {

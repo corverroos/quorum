@@ -3,12 +3,12 @@ package v1
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/permission/core"
-	ptype "github.com/ethereum/go-ethereum/permission/core/types"
-	pb "github.com/ethereum/go-ethereum/permission/v1/bind"
+	"github.com/corverroos/quorum/accounts/abi/bind"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/permission/core"
+	ptype "github.com/corverroos/quorum/permission/core/types"
+	pb "github.com/corverroos/quorum/permission/v1/bind"
 )
 
 type Backend struct {

@@ -5,9 +5,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/rlp"
 )
 
 type Preprepare struct {

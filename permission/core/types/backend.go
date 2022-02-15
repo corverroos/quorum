@@ -11,14 +11,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/raft"
+	"github.com/corverroos/quorum/accounts/abi/bind"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/event"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/raft"
 )
 
 // supports 2 models of permissions v1 and v2.

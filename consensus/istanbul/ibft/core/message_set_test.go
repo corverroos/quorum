@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	ibfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/ibft/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	ibfttypes "github.com/corverroos/quorum/consensus/istanbul/ibft/types"
+	"github.com/corverroos/quorum/rlp"
 )
 
 func TestMessageSetWithPreprepare(t *testing.T) {

@@ -12,14 +12,14 @@ import (
 
 	"github.com/coreos/etcd/wal"
 	"github.com/coreos/etcd/wal/walpb"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/eth"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/params"
 )
 
 // pm.advanceAppliedIndex() and state updates are in different

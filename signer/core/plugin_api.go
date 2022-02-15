@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/plugin/account"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/plugin/account"
 )
 
 // <Quorum>

@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/common/hexutil"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/internal/debug"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

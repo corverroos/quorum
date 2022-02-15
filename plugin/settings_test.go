@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/plugin/account"
+	"github.com/corverroos/quorum/plugin/account"
 	"github.com/naoina/toml"
 	testifyassert "github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

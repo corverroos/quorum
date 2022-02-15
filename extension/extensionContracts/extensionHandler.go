@@ -1,6 +1,6 @@
 package extensionContracts
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/corverroos/quorum/common"
 
 func UnpackStateSharedLog(logData []byte) (common.Address, string, string, error) {
 	decodedLog := new(ContractExtenderStateShared)

@@ -4,12 +4,12 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/private"
-	"github.com/ethereum/go-ethereum/private/engine"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/private"
+	"github.com/corverroos/quorum/private/engine"
+	"github.com/corverroos/quorum/trie"
 )
 
 // newPrivateStateManager instantiates an instance of mps.PrivateStateManager based on

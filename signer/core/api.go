@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/pluggable"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/plugin"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/accounts/keystore"
+	"github.com/corverroos/quorum/accounts/pluggable"
+	"github.com/corverroos/quorum/accounts/scwallet"
+	"github.com/corverroos/quorum/accounts/usbwallet"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/hexutil"
+	"github.com/corverroos/quorum/internal/ethapi"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/plugin"
+	"github.com/corverroos/quorum/signer/storage"
 )
 
 const (

@@ -1,6 +1,6 @@
 package istanbul
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/corverroos/quorum/common"
 
 type Core interface {
 	Start() error

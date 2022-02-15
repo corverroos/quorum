@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/p2p/dnsdisc"
 	"gopkg.in/urfave/cli.v1"
 )
 

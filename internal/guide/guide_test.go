@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/corverroos/quorum/accounts/keystore"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/types"
 )
 
 // Tests that the account management snippets work correctly.

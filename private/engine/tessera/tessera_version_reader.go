@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/private/engine"
 )
 
 const apiVersion1 = "1.0"

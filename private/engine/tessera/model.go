@@ -1,6 +1,6 @@
 package tessera
 
-import "github.com/ethereum/go-ethereum/private/engine"
+import "github.com/corverroos/quorum/private/engine"
 
 // request object for /send API
 type sendRequest struct {

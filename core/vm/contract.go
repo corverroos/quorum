@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/corverroos/quorum/common"
 	"github.com/holiman/uint256"
 )
 

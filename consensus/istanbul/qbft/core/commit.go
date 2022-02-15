@@ -17,10 +17,10 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	qbfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/qbft/types"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common/hexutil"
+	qbfttypes "github.com/corverroos/quorum/consensus/istanbul/qbft/types"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/rlp"
 )
 
 // broadcastCommit is called when receiving quorum of PREPARE message

@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/multitenancy"
-	"github.com/ethereum/go-ethereum/plugin/security"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/multitenancy"
+	"github.com/corverroos/quorum/plugin/security"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/jpmorganchase/quorum-security-plugin-sdk-go/proto"
 )

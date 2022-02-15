@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/log"
 )
 
 // Plugin Integrity Verifier.

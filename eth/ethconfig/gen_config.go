@@ -5,14 +5,14 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/ethash"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/eth/downloader"
+	"github.com/corverroos/quorum/eth/gasprice"
+	"github.com/corverroos/quorum/miner"
+	"github.com/corverroos/quorum/params"
 )
 
 // MarshalTOML marshals as TOML.

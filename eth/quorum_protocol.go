@@ -3,7 +3,7 @@ package eth
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/corverroos/quorum/p2p"
 )
 
 // Quorum: quorum_protocol enables the eth service to return two different protocols, one for the eth mainnet "eth" service,

@@ -27,15 +27,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/corverroos/quorum/common"
 
-	"github.com/ethereum/go-ethereum/plugin"
+	"github.com/corverroos/quorum/plugin"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/params"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

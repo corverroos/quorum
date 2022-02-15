@@ -7,8 +7,8 @@ package private
 import (
 	reflect "reflect"
 
-	common "github.com/ethereum/go-ethereum/common"
-	engine "github.com/ethereum/go-ethereum/private/engine"
+	common "github.com/corverroos/quorum/common"
+	engine "github.com/corverroos/quorum/private/engine"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/p2p/enode"
 	lru "github.com/hashicorp/golang-lru"
 )
 

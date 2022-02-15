@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/private/engine"
 )
 
 const versionLength = 3

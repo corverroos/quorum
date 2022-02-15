@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/event"
 )
 
 // Backend provides application specific functions for Istanbul core

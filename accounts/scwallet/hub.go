@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/event"
+	"github.com/corverroos/quorum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

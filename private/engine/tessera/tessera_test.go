@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/private/engine"
 	testifyassert "github.com/stretchr/testify/assert"
 )
 

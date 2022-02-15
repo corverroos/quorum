@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/core/state"
 )
 
 func TestDumpAddressWhenFound(t *testing.T) {

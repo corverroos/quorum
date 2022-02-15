@@ -1,9 +1,9 @@
 package extension
 
 import (
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/extension/extensionContracts"
+	"github.com/corverroos/quorum"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/extension/extensionContracts"
 )
 
 var (

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/eth/protocols/eth"
+	"github.com/corverroos/quorum/internal/utesting"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

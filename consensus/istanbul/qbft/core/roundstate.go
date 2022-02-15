@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	qbfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/qbft/types"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	qbfttypes "github.com/corverroos/quorum/consensus/istanbul/qbft/types"
 )
 
 // newRoundState creates a new roundState instance with the given view and validatorSet

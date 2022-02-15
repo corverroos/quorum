@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 	time "time"
 
-	accounts "github.com/ethereum/go-ethereum/accounts"
+	accounts "github.com/corverroos/quorum/accounts"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/log"
 )
 
 type DispenseFunc func() (Service, error)

@@ -11,10 +11,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/plugin/account"
-	"github.com/ethereum/go-ethereum/plugin/helloworld"
-	"github.com/ethereum/go-ethereum/plugin/security"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/plugin/account"
+	"github.com/corverroos/quorum/plugin/helloworld"
+	"github.com/corverroos/quorum/plugin/security"
+	"github.com/corverroos/quorum/rpc"
 	"github.com/hashicorp/go-plugin"
 	"github.com/naoina/toml"
 )

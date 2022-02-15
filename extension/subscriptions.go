@@ -1,12 +1,12 @@
 package extension
 
 import (
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/private"
+	"github.com/corverroos/quorum"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/ethclient"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/private"
 )
 
 type subscriptionHandler struct {

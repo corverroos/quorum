@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/accounts/pluggable"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/accounts/pluggable"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/rpc"
 )
 
 // this implements geth service

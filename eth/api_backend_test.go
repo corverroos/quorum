@@ -3,8 +3,8 @@ package eth
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/node"
 	"github.com/stretchr/testify/require"
 )
 

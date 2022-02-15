@@ -19,7 +19,7 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/corverroos/quorum/common"
 )
 
 func (c *core) handleFinalCommitted() error {

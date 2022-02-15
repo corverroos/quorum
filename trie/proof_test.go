@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/ethdb/memorydb"
 )
 
 func init() {

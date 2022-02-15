@@ -29,8 +29,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/plugin/security"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/plugin/security"
+	"github.com/corverroos/quorum/rpc"
 )
 
 // GraphiQL is an in-browser IDE for exploring GraphiQL APIs.

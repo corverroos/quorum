@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/istanbul"
-	qbfttypes "github.com/ethereum/go-ethereum/consensus/istanbul/qbft/types"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus"
+	"github.com/corverroos/quorum/consensus/istanbul"
+	qbfttypes "github.com/corverroos/quorum/consensus/istanbul/qbft/types"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/p2p"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/ethdb"
 
 	checker "gopkg.in/check.v1"
 )

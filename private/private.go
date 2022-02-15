@@ -7,14 +7,14 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	http2 "github.com/ethereum/go-ethereum/common/http"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/private/engine"
-	"github.com/ethereum/go-ethereum/private/engine/constellation"
-	"github.com/ethereum/go-ethereum/private/engine/notinuse"
-	"github.com/ethereum/go-ethereum/private/engine/tessera"
+	"github.com/corverroos/quorum/common"
+	http2 "github.com/corverroos/quorum/common/http"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/private/engine"
+	"github.com/corverroos/quorum/private/engine/constellation"
+	"github.com/corverroos/quorum/private/engine/notinuse"
+	"github.com/corverroos/quorum/private/engine/tessera"
 )
 
 var (

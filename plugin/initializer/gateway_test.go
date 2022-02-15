@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/plugin/gen/proto_common"
+	"github.com/corverroos/quorum/plugin/gen/proto_common"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 )

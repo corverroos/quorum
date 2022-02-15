@@ -3,7 +3,7 @@ package account
 import (
 	"context"
 
-	iplugin "github.com/ethereum/go-ethereum/internal/plugin"
+	iplugin "github.com/corverroos/quorum/internal/plugin"
 	"github.com/hashicorp/go-plugin"
 	"github.com/jpmorganchase/quorum-account-plugin-sdk-go/proto"
 	"google.golang.org/grpc"

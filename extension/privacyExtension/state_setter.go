@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	extension "github.com/ethereum/go-ethereum/extension/extensionContracts"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/private"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	extension "github.com/corverroos/quorum/extension/extensionContracts"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/private"
 )
 
 var DefaultExtensionHandler *ExtensionHandler

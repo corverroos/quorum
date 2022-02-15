@@ -3,7 +3,7 @@ package eth
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
+	"github.com/corverroos/quorum/eth/ethconfig"
 	"github.com/stretchr/testify/assert"
 )
 

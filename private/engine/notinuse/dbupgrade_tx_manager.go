@@ -1,7 +1,7 @@
 package notinuse
 
 import (
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/private/engine"
 )
 
 // DBUpgradePrivateTransactionManager returns an error for all communication functions,

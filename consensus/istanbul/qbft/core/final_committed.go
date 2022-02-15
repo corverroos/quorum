@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/corverroos/quorum/common"
 
 func (c *core) handleFinalCommitted() error {
 	c.currentLogger(true, nil).Info("QBFT: handle final committed")

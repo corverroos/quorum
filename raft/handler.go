@@ -23,15 +23,15 @@ import (
 	mapset "github.com/deckarep/golang-set"
 	"github.com/syndtr/goleveldb/leveldb"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/eth/downloader"
+	"github.com/corverroos/quorum/event"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/enode"
+	"github.com/corverroos/quorum/p2p/enr"
+	"github.com/corverroos/quorum/rlp"
 )
 
 type ProtocolManager struct {

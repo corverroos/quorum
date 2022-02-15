@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/prque"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

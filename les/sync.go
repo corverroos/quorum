@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/rawdb"
+	"github.com/corverroos/quorum/eth/downloader"
+	"github.com/corverroos/quorum/light"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

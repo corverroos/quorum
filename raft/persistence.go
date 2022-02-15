@@ -3,7 +3,7 @@ package raft
 import (
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/log"
 
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"

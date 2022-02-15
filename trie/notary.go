@@ -17,8 +17,8 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/corverroos/quorum/ethdb"
+	"github.com/corverroos/quorum/ethdb/memorydb"
 )
 
 // KeyValueNotary tracks which keys have been accessed through a key-value reader

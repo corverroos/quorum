@@ -1,9 +1,9 @@
 package extension
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/private"
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/private"
+	"github.com/corverroos/quorum/private/engine"
 )
 
 // generateUuid sends some data to the linked Private Transaction Manager which

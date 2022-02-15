@@ -3,7 +3,7 @@ package mps
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/corverroos/quorum/core/types"
 )
 
 var (

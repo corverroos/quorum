@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/plugin/account/internal/testutils"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/plugin/account/internal/testutils"
 	"github.com/golang/mock/gomock"
 	"github.com/jpmorganchase/quorum-account-plugin-sdk-go/mock_proto"
 	"github.com/jpmorganchase/quorum-account-plugin-sdk-go/proto"

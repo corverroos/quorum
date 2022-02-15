@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/corverroos/quorum/cmd/utils"
+	"github.com/corverroos/quorum/params"
 	testifyassert "github.com/stretchr/testify/assert"
 	"gopkg.in/urfave/cli.v1"
 )

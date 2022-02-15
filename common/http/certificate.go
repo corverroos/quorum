@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/log"
 )
 
 // Load Root CA certificate(s).

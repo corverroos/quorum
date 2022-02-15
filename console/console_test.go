@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus/ethash"
+	"github.com/corverroos/quorum/console/prompt"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/eth"
+	"github.com/corverroos/quorum/eth/ethconfig"
+	"github.com/corverroos/quorum/internal/jsre"
+	"github.com/corverroos/quorum/miner"
+	"github.com/corverroos/quorum/node"
 )
 
 const (

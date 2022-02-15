@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"crypto/ecdsa"
 
-	"github.com/ethereum/go-ethereum/common"
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/common"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	"github.com/corverroos/quorum/core"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/params"
+	"github.com/corverroos/quorum/rlp"
 )
 
 func Genesis(validators []common.Address, isQBFT bool) *core.Genesis {

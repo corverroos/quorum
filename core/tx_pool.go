@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/mps"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	pcore "github.com/ethereum/go-ethereum/permission/core"
-	"github.com/ethereum/go-ethereum/private"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/common/prque"
+	"github.com/corverroos/quorum/core/mps"
+	"github.com/corverroos/quorum/core/state"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/event"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/metrics"
+	"github.com/corverroos/quorum/params"
+	pcore "github.com/corverroos/quorum/permission/core"
+	"github.com/corverroos/quorum/private"
 )
 
 const (

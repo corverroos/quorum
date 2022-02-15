@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/core/forkid"
+	"github.com/corverroos/quorum/p2p"
 )
 
 const (

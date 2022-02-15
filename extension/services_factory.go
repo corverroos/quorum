@@ -3,11 +3,11 @@ package extension
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/extension/privacyExtension"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/private"
+	"github.com/corverroos/quorum/accounts"
+	"github.com/corverroos/quorum/eth"
+	"github.com/corverroos/quorum/extension/privacyExtension"
+	"github.com/corverroos/quorum/node"
+	"github.com/corverroos/quorum/private"
 )
 
 type ServicesFactory interface {

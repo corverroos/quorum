@@ -19,11 +19,11 @@ package backend
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	istanbulcommon "github.com/ethereum/go-ethereum/consensus/istanbul/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/consensus"
+	istanbulcommon "github.com/corverroos/quorum/consensus/istanbul/common"
+	"github.com/corverroos/quorum/core/types"
+	"github.com/corverroos/quorum/rpc"
 )
 
 // API is a user facing RPC API to dump Istanbul state

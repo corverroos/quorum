@@ -12,10 +12,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	iplugin "github.com/ethereum/go-ethereum/internal/plugin"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/plugin/initializer"
+	"github.com/corverroos/quorum/common"
+	iplugin "github.com/corverroos/quorum/internal/plugin"
+	"github.com/corverroos/quorum/log"
+	"github.com/corverroos/quorum/plugin/initializer"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 )

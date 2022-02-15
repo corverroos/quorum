@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/corverroos/quorum/cmd/devp2p/internal/ethtest"
+	"github.com/corverroos/quorum/crypto"
+	"github.com/corverroos/quorum/p2p"
+	"github.com/corverroos/quorum/p2p/rlpx"
+	"github.com/corverroos/quorum/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

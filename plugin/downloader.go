@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/log"
 )
 
 // get plugin zip file from local or remote

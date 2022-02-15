@@ -3,10 +3,10 @@ package constellation
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/private/engine"
+	"github.com/corverroos/quorum/private/engine"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/private/cache"
+	"github.com/corverroos/quorum/common"
+	"github.com/corverroos/quorum/private/cache"
 
 	gocache "github.com/patrickmn/go-cache"
 )
