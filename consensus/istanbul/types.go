@@ -18,6 +18,8 @@ package istanbul
 
 import (
 	"fmt"
+	"github.com/corverroos/quorum/crypto"
+
 	"io"
 	"math/big"
 
@@ -26,6 +28,72 @@ import (
 	"github.com/corverroos/quorum/rlp"
 )
 
+func NewRawProposal(number *big.Int, hash common.Hash, payload []byte, label string) *RawProposal {
+	return &RawProposal{
+		number:  number,
+		hash:    hash,
+		payload: payload,
+		label:   label,
+	}
+}
+
+type RawProposal struct {
+	number  *big.Int
+	hash    common.Hash
+	payload []byte
+	label   string
+}
+
+func (r RawProposal) Payload() []byte {
+	return r.payload
+}
+
+func (r RawProposal) Number() *big.Int {
+	return r.number
+}
+
+func (r RawProposal) Hash() common.Hash {
+	return r.hash
+}
+
+func (r RawProposal) CommitHash(round uint64) common.Hash {
+	return crypto.Keccak256Hash(r.Hash().Bytes(), big.NewInt(int64(round)).Bytes())
+}
+
+func (r RawProposal) EncodeRLP(w io.Writer) error {
+	return rlp.Encode(
+		w,
+		[]interface{}{
+			r.number,
+			r.hash,
+			r.payload,
+			r.label,
+		})
+}
+
+func (r *RawProposal) DecodeRLP(stream *rlp.Stream) error {
+	var message struct {
+		Number  *big.Int
+		Hash    common.Hash
+		Payload []byte
+		Label   string
+	}
+	if err := stream.Decode(&message); err != nil {
+		return err
+	}
+
+	r.number = message.Number
+	r.hash = message.Hash
+	r.payload = message.Payload
+	r.label = message.Label
+
+	return nil
+}
+
+func (r RawProposal) String() string {
+	return r.label
+}
+
 // Proposal supports retrieving height and serialized block to be used during Istanbul consensus.
 type Proposal interface {
 	// Number retrieves the sequence number of this proposal.
@@ -33,6 +101,9 @@ type Proposal interface {
 
 	// Hash retrieves the hash of this proposal.
 	Hash() common.Hash
+
+	// CommitHash retrieves the QBFT commit hash for the given round.
+	CommitHash(round uint64) common.Hash
 
 	EncodeRLP(w io.Writer) error
 

@@ -412,4 +412,8 @@ func (b *Block) Hash() common.Hash {
 	return v
 }
 
+func (b *Block) CommitHash(round uint64) common.Hash {
+	return common.Hash{}
+}
+
 type Blocks []*Block

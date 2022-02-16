@@ -35,12 +35,10 @@ func (c *core) broadcastCommit() {
 
 	sub := c.current.Subject()
 
-	var header *types.Header
-	if block, ok := c.current.Proposal().(*types.Block); ok {
-		header = block.Header()
-	}
+	commitDigest := c.current.Proposal().CommitHash(c.currentView().Round.Uint64())
+
 	// Create Commit Seal
-	commitSeal, err := c.backend.SignWithoutHashing(PrepareCommittedSeal(header, uint32(c.currentView().Round.Uint64())))
+	commitSeal, err := c.backend.SignWithoutHashing(commitDigest.Bytes())
 	if err != nil {
 		logger.Error("QBFT: failed to create COMMIT seal", "sub", sub, "err", err)
 		return

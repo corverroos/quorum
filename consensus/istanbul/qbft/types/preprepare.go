@@ -6,7 +6,6 @@ import (
 	"math/big"
 
 	"github.com/corverroos/quorum/consensus/istanbul"
-	"github.com/corverroos/quorum/core/types"
 	"github.com/corverroos/quorum/rlp"
 )
 
@@ -57,7 +56,7 @@ func (m *Preprepare) DecodeRLP(stream *rlp.Stream) error {
 			Payload struct {
 				Sequence *big.Int
 				Round    *big.Int
-				Proposal *types.Block
+				Proposal *istanbul.RawProposal
 			}
 			Signature []byte
 		}
